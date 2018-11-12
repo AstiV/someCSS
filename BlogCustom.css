@@ -36,8 +36,22 @@ a:hover {
     text-decoration: underline;
 }
 
+/* body.post-template-default
+    > div
+    > div
+    > div
+    > div
+    > div
+    > section
+    > article
+    > div.entry-content.clearfix
+    > p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+} */
+
 p {
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -58,13 +72,15 @@ textarea {
     line-height: 14px;
 }
 
+.search-submit,
 .back-to-top a {
-    background-color: #f9a441;
+    background-color: #f9a441 !important;
 }
 
+.search-submit,
 .back-to-top a:hover {
     text-decoration: none;
-    background-color: #faad54;
+    background-color: #faad54 !important;
 }
 
 #site-logo {
@@ -101,16 +117,15 @@ textarea {
 
 #access a:hover {
     color: rgba(40, 50, 65, 0.8) !important;
-    opacity: 0.8;
 }
 
 .page-title-wrap {
-    background: #e7e9ea;
+    background: #283241;
     border: 0;
 }
 
 .page-title {
-    color: #425573;
+    color: #fff;
 }
 
 .slogan-wrap {
@@ -132,7 +147,7 @@ textarea {
 }
 
 .slogan-wrap .slogan {
-    font-size: 21px;
+    font-size: 2.4rem;
     text-transform: none;
     background: none;
     border: none;
@@ -168,6 +183,11 @@ textarea {
 .entry-title a:hover,
 .entry-meta .cat-links a:hover {
     color: #283241;
+}
+
+.entry-title {
+    font-size: 2.2rem;
+    line-height: 1.5;
 }
 
 a.readmore {
