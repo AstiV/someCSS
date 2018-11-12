@@ -309,12 +309,15 @@ footer.entry-meta {
 }
 
 #site-generator {
-    background-color: #425573;
-    color: #8598b4;
+    background-color: #283241;
+    /* color: #8598b4; */
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
 }
 
 #site-generator .copyright a {
-    color: #8598b4;
+    /* color: #8598b4; */
+    color: rgba(255, 255, 255, 0.7);
 }
 
 #site-generator .copyright a:hover {
