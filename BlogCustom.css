@@ -322,6 +322,7 @@ footer.entry-meta {
 
 #site-generator .copyright a:hover {
     color: #fff;
+    text-decoration: none;
 }
 
 .social-profiles ul li a:hover {
