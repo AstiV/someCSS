@@ -36,6 +36,20 @@ a:hover {
     text-decoration: underline;
 }
 
+h1,
+h2,
+h3,
+h3 a,
+h4,
+h5,
+h6 {
+    color: #283241;
+}
+
+h3 a:hover {
+    color: rgba(40, 50, 65, 0.8);
+}
+
 /* body.post-template-default
     > div
     > div
