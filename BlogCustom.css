@@ -125,7 +125,8 @@ textarea {
     color: #283241;
     height: auto;
     padding: 22px 0 18px;
-    font-size: 13px;
+    font-size: 1.05rem;
+    line-height: 1.2;
     text-transform: none;
 }
 
