@@ -126,7 +126,6 @@ textarea {
     height: auto;
     padding: 22px 0 18px;
     font-size: 1.05rem;
-    line-height: 1.2;
     text-transform: none;
 }
 
@@ -195,9 +194,15 @@ textarea {
 
 .entry-title,
 .entry-title a,
-.entry-title a:hover,
+/* .entry-title a:hover, */
 .entry-meta .cat-links a:hover {
     color: #283241;
+    text-decoration: none;
+}
+
+.entry-title a:hover {
+    color: rgba(40, 50, 65, 0.8) !important;
+    text-decoration: none;
 }
 
 .entry-title {
@@ -297,6 +302,7 @@ footer.entry-meta {
 
 .widget img {
     display: block;
+    opacity: 1 !important;
 }
 
 .widget_ourclients {
