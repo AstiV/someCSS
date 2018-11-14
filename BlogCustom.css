@@ -47,6 +47,7 @@ h6 {
 }
 
 h3 a:hover {
+    text-decoration: none;
     color: rgba(40, 50, 65, 0.8);
 }
 
