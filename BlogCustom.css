@@ -242,18 +242,18 @@ ul.default-wp-page li a:hover,
     background: #f9a441;
 }
 
-input[type="reset"],
-input[type="button"],
-input[type="submit"] {
+input[type=\"reset\"],
+input[type=\"button\"],
+input[type=\"submit\"] {
     text-transform: none;
     background-color: #f9a441;
     box-shadow: rgba(0, 0, 0, 0.2) 0 -2px 0 inset;
     padding: 0 25px;
 }
 
-input[type="reset"]:hover,
-input[type="button"]:hover,
-input[type="submit"]:hover {
+input[type=\"reset\"]:hover,
+input[type=\"button\"]:hover,
+input[type=\"submit\"]:hover {
     background-color: #faad54;
 }
 
@@ -289,6 +289,10 @@ footer.entry-meta {
 .widget_ourclients ul li {
     max-width: 100%;
     display: block;
+}
+
+.widget_ourclients ul li a {
+    opacity: 1 !important;
 }
 
 .widget_ourclients ul li {
