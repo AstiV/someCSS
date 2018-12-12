@@ -134,6 +134,10 @@ textarea {
     color: rgba(40, 50, 65, 0.8) !important;
 }
 
+#access ul li.current-menu-item a {
+    color: #f9a441;
+}
+
 .page-title-wrap {
     background: #283241;
     border: 0;
