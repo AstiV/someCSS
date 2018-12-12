@@ -48,7 +48,7 @@ h6 {
 
 h3 a:hover {
     text-decoration: none;
-    color: rgba(40, 50, 65, 0.8);
+    color: #283241cc;
 }
 
 /* body.post-template-default
@@ -77,7 +77,7 @@ blockquote {
 body,
 input,
 textarea {
-    color: #444;
+    color: #283241;
     font: 13px Source Sans Pro, sans-serif;
 }
 
@@ -92,7 +92,7 @@ textarea {
     background-color: #f9a441 !important;
 }
 
-.search-submit,
+.search-submit:hover,
 .back-to-top a:hover {
     text-decoration: none;
     background-color: #faad54 !important;
