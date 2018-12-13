@@ -65,7 +65,9 @@ h3 a:hover {
     line-height: 1.5;
 } */
 
-p ul li {
+p,
+ul,
+li {
     font-size: 1rem;
     line-height: 1.5;
 }
