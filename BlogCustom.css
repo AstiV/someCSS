@@ -207,7 +207,7 @@ textarea {
 }
 
 .entry-title a:hover {
-    color: rgba(40, 50, 65, 0.8) !important;
+    color: #283241cc !important;
     text-decoration: none;
 }
 
@@ -282,12 +282,17 @@ footer.entry-meta {
 }
 
 .tag-links a {
-    color: #fff;
+    background: #e9ebec;
+    color: #283241;
+    position: static;
+    border-radius: 3px;
+    margin-left: 0px;
+    margin-right: 14px;
 }
 
 .tag-links a:hover {
-    background: #f9a441;
-    color: #fff;
+    background: #e9ebec;
+    color: #283241;
 }
 
 .tag-links a:hover:before {
