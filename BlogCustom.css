@@ -372,3 +372,7 @@ footer.entry-meta {
 .social-profiles ul li a:hover {
     text-decoration: none;
 }
+
+.wp-block-image .alignright {
+    margin: 1em 1.5em;
+}
